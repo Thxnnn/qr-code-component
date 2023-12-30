@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Ubuntu+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 400px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-content {
+    /* margin: 8px 0; */
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.text-header {
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.text-detail {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    padding-bottom: 8px;
+    font-weight: 400;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 3rem;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
